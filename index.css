@@ -1,0 +1,132 @@
+body
+{
+
+	padding-top: 20px; 
+	text-align: justify;
+    padding-left: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    background-image: url("szachownica.jpg");
+
+}
+.box {
+    
+    display: flex;
+    margin-bottom: 20px;
+}
+
+table
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+#menuBox {
+    border: 1px solid black;
+    padding: 50px;
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(163, 143, 88);
+}
+
+.formBox {
+    padding: 50px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(163, 143, 88);
+}
+
+
+
+
+
+#noAccessInfo{
+    display:none;
+    color: white;
+    padding: 50px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(163, 143, 88);
+    text-align: justify;
+}
+
+
+#dataBox{
+    display: none;
+
+}
+#dataBox2{
+    display: none;
+
+}
+
+#logoutBox{
+    
+    display: none;
+    padding-left: 30%;
+
+}
+
+
+#wynik
+{
+    position: relative;
+    right: 0px; bottom: 0px;
+    padding-right: 20px;
+    text-align: right;
+    
+}
+
+input[type=button],button
+{
+    
+  padding: 5px 10px;
+  font-size: 10px;
+  background-color: rgb(239, 230, 247);
+  border: none;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 12px;
+  cursor: pointer;
+
+}
+input[type=button]:hover,button:hover
+{
+    color: black;
+    background:  rgba(239, 230, 247, 0.603);
+
+}
+#myChart {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+#myChart2 {
+    
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+}

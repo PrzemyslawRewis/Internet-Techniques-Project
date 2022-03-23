@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+    <head>
+        <title>Projekt 2</title>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="utf-8">
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="rest.js" ></script>
+    </head>
+    <body>
+            <h1>Ankieta o grach planszowych</h1>
+        <div id="menuBox">
+            <div class="box">
+                <button onclick="login_form()">Logowanie do serwisu</button>
+                <button onclick="register_form()">Rejestracja w serwisie</button>
+                
+            </div>
+            <div id="content"></div>
+            <p id="result"></p>
+        </div>
+
+        <div class="formBox">
+            <form name="form1">
+
+                        <div class="question">
+                            <p>Pytanie 1. Ile masz lat? *</p>
+                            <input name="age" min=1 max = 200 type="number" placeholder="wiek" required/>
+                        </div>
+                       
+                        <div class="question">
+                            <p>Pytanie 2. Twoja ulubiona gra planszowa to: *</p>
+                            <select name="gra"  required>
+                                <option value="">Podaj odpowiedź</option>
+                                <option value="Szachy">Szachy</option>
+                                <option value="Warcaby">Warcaby</option>
+                                <option value="Inna">Inna</option>
+                                <option value="Nie gram w gry planszowe">Nie gram w gry planszowe</option>
+     
+                            </select>
+                        </div>
+                        <br/>
+                        <input type="button" value="Zapisz swoją odpowiedź" onclick="save_answers(this.form)">    
+                        
+                        <p>*pole wymagane</p>
+                        
+                        
+            </form>
+            <p id="result1"></p>
+                
+        </div>
+
+        <p id="noAccessInfo"></p>
+
+        
+       
+        <div id="myChart" style="padding-left: 35% "></div> 
+        <div id="myChart2" style="padding-left: 35%"></div>  
+   
+      
+
+        <div id="logoutBox">   
+            <button onclick="logout()">Wylogowanie z serwisu</button>
+            <button onclick="analiza()">Analizuj odpowiedzi</button>
+        </div>
+
+        
+    </body>
+</html>
